@@ -197,7 +197,7 @@ let processed = 0;
 async function main() {
   const file = fs.createWriteStream(svgout, { defaultEncoding: encoding });
   file.write(header);
-  const globFiles = await glob(argv.source, { nocase: true });
+  const globFiles = await glob(argv.source, { nocase: false });
   const fnames = globFiles.filter(x => x !== svgout);
   fnames.sort();
 
