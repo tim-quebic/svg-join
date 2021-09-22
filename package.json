@@ -1,5 +1,5 @@
 {
-  "name": "@telia/svg-join",
+  "name": "svg-join",
   "version": "1.0.1",
   "description": "Join svg files in symbol collection. Fork of https://github.com/Climenty/svg-join, modified to have consistent results with sorted assets",
   "main": "svg-join.js",
@@ -26,7 +26,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TeliaSoneraNorge/svg-join"
+    "url": "git+https://github.com/tim-quebic/svg-join"
   },
   "license": "MIT",
   "devDependencies": {
